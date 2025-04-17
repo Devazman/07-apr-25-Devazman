@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Revo</title>
+  <link rel="stylesheet" href="css/home.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="main-header" id="navbar">
+    <div class="nav-container">
+      <div class="main-logo">
+        <img class="mainlogo-img" src="asset/mumu.jpg" alt="Logo" />
+        <h3 class="main-logotext">TMu<span>har</span></h3>
+      </div>
+
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <nav id="nav-links">
+        <a href="#home-section">Home</a>
+        <a href="#message-us-section">Our Profile</a>
+        <a href="#portfolio-section">Portfolio</a>
+        <a href="#message-us-section">Message Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Home Section -->
+    <section id="home-section" class="carousel-section">
+      <div class="carousel-text">
+        <h2>Hi _, Welcome to my website</h2>
+        <p>Halo Saya Seorang Software Developer</p>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio-section" class="content-section">
+      <h2>Portfolio</h2>
+      <div class="portfolio">
+        <div class="portfolio-item">Project 1</div>
+        <div class="portfolio-item">Project 2</div>
+      </div>
+      <div class="portfolio-img">
+        <img class="port-img" src="asset/lexedu.png" alt="Portfolio Image" />
+        <img class="port-img" src="asset/medi.png" alt="Portfolio Image" />
+      </div>
+    </section>
+
+    <!-- Message Us Section -->
+    <section id="message-us-section" class="content-section">
+      <h2>Message Us</h2>
+      <div class="form-profile-wrapper">
+        <!-- Contact Form -->
+        <form class="contact-form" method="post">
+          <input id="nama" type="text" placeholder="Name" required />
+          <input id="email" type="email" placeholder="Email" required />
+          <textarea id="message" placeholder="Message" required></textarea>
+          <button type="submit" onclick="kirim()">Send</button>
+        </form>
+
+        <!-- Profile Info -->
+        <div class="profile-box">
+          <h3>Our Profile</h3>
+          <p><strong>Current Time:</strong> Rabu, April 16 2025 4:30 WIB</p>
+          <p><strong>Nama:</strong> Teuku Azman Muharsyah</p>
+          <p><strong>Tanggal Lahir:</strong> 30/12/2008</p>
+          <p><strong>Jenis Kelamin:</strong> Laki-Laki</p>
+          <p><strong>Pesan:</strong> Lagi belajar buat web</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <span>Made by muhar@2025</span>
+  </footer>
+
+  <script src="js/home.js"></script>
+</body>
+</html>
